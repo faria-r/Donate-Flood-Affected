@@ -48,7 +48,7 @@ padding-top: 50px;
     margin-bottom: 0;
 }
 .donation-container{
-    border: 1px solid red;
+    
     margin: 2% 20%;
     padding: 20px 10px;
     width: 60%;
@@ -71,4 +71,21 @@ padding-top: 50px;
 #two-hundrade{
     background-color: rgb(255, 206, 214);
     border: 2px solid red;
+}
+.confirm-donation{
+    width: 60%;
+    height: 150px;
+    margin: 2% 20%;
+    
+    padding: 30px 10px;
+    text-align: center;
+}
+.confirm-donation input{
+   border-style: hidden;
+   border-bottom: 1px solid gray;
+    box-shadow:   2px gray;
+    width: 80%;margin-bottom: 50px;
+    text-align: center;
+    font-size: 15px;
+    
 }

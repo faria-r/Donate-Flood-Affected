@@ -30,8 +30,8 @@ body{
     background-color: tomato;
     color: white;
     text-decoration: none;
-    padding: 20px 35px;
-    border-radius: 15px;
+    padding: 15px 25px;
+    border-radius: 10px;
 }
 .donation{
    
@@ -86,7 +86,7 @@ padding-top: 50px;
 }
 .donate-plan-area{
     width: 85%;
-    margin: 2% 7%;
+    margin: 5% 7%;
     display: flex;
     justify-content: space-evenly;
     padding: 20px 20px;
@@ -109,4 +109,16 @@ padding-top: 50px;
 }
 #education-plan{
     background-color:antiquewhite;
+}
+.contribute-content{
+    width: 40%;
+    height: 450px;
+}
+.contribute-content img{
+    width: 100%;
+    height: 100%;
+}
+.donate-text{
+    color: gray;
+    margin-bottom: 35px;
 }

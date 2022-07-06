@@ -30,8 +30,8 @@ body{
     background-color: tomato;
     color: white;
     text-decoration: none;
-    padding: 15px 25px;
-    border-radius: 10px;
+    padding: 12px 25px;
+    border-radius: 5px;
 }
 .donation{
    
@@ -41,11 +41,9 @@ padding-top: 50px;
 }
 .donate-title{
     font-size: 40px;
-  font-family:sans-serif;
-  font-weight: 800;
+  font-weight: bold;
 }
 .donation-container{
-   
     margin: 2% 20%;
     padding: 20px 10px;
     width: 60%;
@@ -77,10 +75,10 @@ padding-top: 50px;
     text-align: center; 
 }
 .confirm-donation input{
-   border-style: hidden;
-   border-bottom: 1px solid gray;
-    
-    width: 80%;margin-bottom: 50px;
+    border-style: hidden;
+    border-bottom: 1px solid gray;
+    width: 80%;
+    margin-bottom: 50px;
     text-align: center;
     font-size: 15px;
 }
@@ -121,4 +119,29 @@ padding-top: 50px;
 .donate-text{
     color: gray;
     margin-bottom: 35px;
+}
+.subscription{
+    width: 60%;
+    height: 150px;
+    margin: 2% 20%;
+    padding: 10px 20px;
+    background-color: bisque;
+
+}
+.subscription input{
+background-color: silver;
+width:40%;
+border: none;
+margin:6% 0 6% 18%;
+padding: 15px 25px;
+}
+footer{
+text-align: center;
+margin-top: 8%;
+color: white;
+padding: 30px;
+background-color: black;
+}
+footer h3{
+color: brown;
 }

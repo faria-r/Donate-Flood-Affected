@@ -44,11 +44,8 @@ padding-top: 50px;
   font-family:sans-serif;
   font-weight: 800;
 }
-.donation-text{
-    margin-bottom: 0;
-}
 .donation-container{
-    
+   
     margin: 2% 20%;
     padding: 20px 10px;
     width: 60%;
@@ -76,16 +73,40 @@ padding-top: 50px;
     width: 60%;
     height: 150px;
     margin: 2% 20%;
-    
     padding: 30px 10px;
-    text-align: center;
+    text-align: center; 
 }
 .confirm-donation input{
    border-style: hidden;
    border-bottom: 1px solid gray;
-    box-shadow:   2px gray;
+    
     width: 80%;margin-bottom: 50px;
     text-align: center;
     font-size: 15px;
-    
+}
+.donate-plan-area{
+    width: 85%;
+    margin: 2% 7%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 20px;
+}
+.donate-plan{
+    width: 25%;
+    padding: 50px 25px;
+    border-radius: 5px;
+  
+}
+.plan-title{
+    font-size: 20px;
+    font-weight: 900;
+}
+#food-plan{
+    background-color: rgb(199, 247, 253);
+}
+#shelter-plan{
+    background-color:peachpuff;
+}
+#education-plan{
+    background-color:antiquewhite;
 }

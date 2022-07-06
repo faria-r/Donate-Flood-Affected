@@ -30,15 +30,14 @@ body{
     margin-bottom: 20px;
 }
 .banner-btn{
-    background-color: tomato;
+   background-image: linear-gradient(red,tomato);
     color: white;
     font-size: large;
     padding: 12px 25px;
     border-radius: 5px;
     border: none;
 }
-.donation{
-   
+.donation{  
 text-align: center;
 margin: 10px 20px;
 padding-top: 50px;
@@ -58,7 +57,7 @@ padding-top: 50px;
 .donation-amount{
     width: 122px;
     height: 120px;
-    background-color:aliceblue;
+    background-color:azure;
    border-radius: 5px;
 }
 .amount{
@@ -68,12 +67,12 @@ padding-top: 50px;
     font-weight: 800;
 }
 #two-hundrade{
-    background-color: rgb(255, 206, 214);
+    background-color: papayawhip;
     border: 2px solid red;
 }
 .confirm-donation{
     width: 60%;
-    height: 150px;
+    height: 100px;
     margin: 2% 20%;
     padding: 30px 10px;
     text-align: center; 
@@ -123,7 +122,7 @@ padding-top: 50px;
     color: gray;
     margin-bottom: 35px;
 }
-.subscription{
+#subscription{
     width: 60%;
     height: 150px;
     margin: 2% 20%;
@@ -131,11 +130,11 @@ padding-top: 50px;
     background-color: bisque;
 
 }
-.subscription input{
+#subscription input{
 background-color: silver;
 width:30%;
 border: none;
-margin:6% 0 6% 18%;
+margin:6% -1% 6% 18%;
 padding: 15px 25px;
 }
 footer{
@@ -153,7 +152,7 @@ margin-bottom: 0;
 
 }
 #Volunteer-info{
-background-image: linear-gradient(pink,powderblue);
+background-image: linear-gradient(antiquewhite,bisque);
 box-shadow: 10px 10px 10px gray;
 border-radius: 21px;
 padding: 10%;
